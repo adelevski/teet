@@ -11,13 +11,9 @@ made a much-loved game more enjoyable and combined playing with analytical work.
 The original notebooks, scripts and first commit remain in the repository.
 The toolkit is maintained by snowball; Nas is its founder.
 
-## Dashboard
+## Run
 
-The public interface uses only local HTML, CSS and JavaScript. No runtime
-libraries, backend, accounts, telemetry or user-data uploads. The bundled snapshot
-contains 114 items and 28 class/form profiles from original commit `a6b3d0f`;
-its game version and current accuracy are not established. Blank stats follow
-the original notebook convention and count as zero, not verified measurements.
+Node 22+ and Python 3.11+ build the static `dist/` directory.
 
 ```sh
 npm ci
@@ -27,10 +23,18 @@ npm run build
 npm run dev
 ```
 
-Node 22+ and Python 3.11+ build the static `dist/` directory. GitHub Pages deploys
-that directory from main using the pinned workflow. `scripts/build.py` regenerates
-`web/data.json` from the canonical CSVs and `helpers.py`. Python's standard library
-is sufficient for the build; do not install desktop dependencies to host the site.
+GitHub Pages deploys `dist/` from main using the pinned workflow.
+`scripts/build.py` regenerates `web/data.json` from the canonical CSVs and
+`helpers.py`. Python's standard library is sufficient for the build; do not
+install desktop dependencies to host the site.
+
+## Dashboard
+
+The public interface uses only local HTML, CSS and JavaScript. No runtime
+libraries, backend, accounts, telemetry or user-data uploads. The bundled snapshot
+contains 114 items and 28 class/form profiles from original commit `a6b3d0f`;
+its game version and current accuracy are not established. Blank stats follow
+the original notebook convention and count as zero, not verified measurements.
 
 ### Model
 
@@ -99,6 +103,8 @@ process ordinary web request metadata under their own policies.
 
 `docs/icon.png` is the master icon; the 180px and 32px versions in `web/` are
 used by the app and browser. Preserve the source artwork when resizing it.
+
+## License
 
 Original software is MIT-licensed; see [LICENSE](LICENSE). The name Warcraft III
 and game-derived names/data remain the property of their respective owners and
