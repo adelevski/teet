@@ -41,7 +41,7 @@ is implied, and no current game-data accuracy is claimed.
 
 ## Stewardship
 
-- Write `teet` and `snowball` in lowercase.
+- Write `teet` in lowercase.
 - Original software is MIT; game data and third-party materials keep their own
   rights.
 - Do not add AI-builder labels or production credits to public copy.

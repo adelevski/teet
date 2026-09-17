@@ -1,6 +1,6 @@
 # teet
 
-[Open teet](https://snowball-projects.github.io/teet/).
+[Open teet](https://adelevski.github.io/teet/).
 
 Twilight’s Eve Evo Toolkit: browse the original item catalogue, choose a class
 and dungeon level, and optimize a six-item build. The optional Windows companion
@@ -9,7 +9,7 @@ controls the existing repeating-key/click and fishing helpers locally.
 This began as Nas Delevski’s personal Warcraft III project: practical tools that
 made a much-loved game more enjoyable and combined playing with analytical work.
 The original notebooks, scripts and first commit remain in the repository.
-The toolkit is maintained by snowball; Nas is its founder.
+The toolkit is maintained by Nas Delevski.
 
 ## Run
 
@@ -110,4 +110,3 @@ Original software is MIT-licensed; see [LICENSE](LICENSE). The name Warcraft III
 and game-derived names/data remain the property of their respective owners and
 are not relicensed by this software license. No official affiliation is implied.
 
-[Operations](https://snowball-projects.github.io/operations/#teet)
