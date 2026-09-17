@@ -13,7 +13,7 @@ The toolkit is maintained by snowball; Nas is its founder.
 
 ## Run
 
-Node 22+ and Python 3.11+ build the static `dist/` directory.
+Node 24+ and Python 3.12+ build the static `dist/` directory.
 
 ```sh
 npm ci

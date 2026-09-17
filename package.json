@@ -10,6 +10,6 @@
     "dev": "npm run build && python3 -m http.server 8785 --bind 127.0.0.1 --directory dist"
   },
   "engines": {
-    "node": ">=22"
+    "node": ">=24 <25"
   }
 }
